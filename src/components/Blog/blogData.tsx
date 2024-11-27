@@ -3,7 +3,7 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "John Doe",
+    title: "David Leadley",
     paragraph:
       "John brings over 15 years of experience in consulting, leading our team to deliver strategic solutions aligned with client goals.",
     image: "/images/blog/blog-01.png",
@@ -12,21 +12,21 @@ const blogData: Blog[] = [
       image: "/images/blog/author-01.png",
       designation: "Graphic Designer",
     },
-    tags: ["Director"],
+    tags: ["Co-Founder & CEO"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "Jane Smith",
+    title: "John Smith",
     paragraph:
       "With 10+ years in IT consulting, Jane helps businesses optimize technology infrastructure with cutting-edge solutions.",
-    image: "/images/blog/blog-02.png",
+    image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
     },
-    tags: ["Senior Consultant"],
+    tags: ["CFO"],
     publishDate: "2025",
   },
   {
